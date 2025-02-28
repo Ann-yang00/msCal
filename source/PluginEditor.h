@@ -4,7 +4,7 @@
 
 #include "PluginProcessor.h"
 #include "tableClass.h"
-#include "myLookAndfeel.h"
+#include "myLookAndFeel.h"
 
 class Ms_calAudioProcessorEditor  : public juce::AudioProcessorEditor, 
                                     public juce::Slider::Listener
@@ -28,7 +28,7 @@ private:
     
     TableComponent myTable;
 
-    myLookAndfeel myLookandFeel;
+    myLookAndFeel myLookandFeel;
 
     void updateTable();
 

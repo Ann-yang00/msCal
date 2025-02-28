@@ -2,10 +2,10 @@
 
 //#include <JuceHeader.h>
 
-class myLookAndfeel : public juce::LookAndFeel_V4
+class myLookAndFeel : public juce::LookAndFeel_V4
 {
 public:
-    myLookAndfeel()
+    myLookAndFeel()
     {
         setColour(juce::Slider::thumbColourId, juce::Colours::white);
         setColour(juce::TableHeaderComponent::backgroundColourId, juce::Colours::black);
