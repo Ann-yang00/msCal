@@ -1,5 +1,5 @@
 # msCal 
-![GUI](assets/images/pluginGUI.png)
+<img src=/assets/images/pluginGUI.PNG width=80% height=80%>
 
 msCal is a JUCE plugin that calculates the millisecond duration for pre-delay, decay time, and total time based on a given BPM and effect size.
 
